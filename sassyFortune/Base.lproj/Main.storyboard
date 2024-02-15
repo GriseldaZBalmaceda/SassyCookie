@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sassyFortune" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU'RE DAILY FORTUNE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xj2-et-8XD">
+                                <rect key="frame" x="56.666666666666657" y="99" width="280" height="28.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="22"/>
+                                <color key="textColor" red="0.87958300109999998" green="0.67192751169999998" blue="0.31362527610000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9CK-LL-onX" customClass="cookieButton">
+                                <rect key="frame" x="20.666666666666657" y="354" width="352" height="214"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="cookie">
+                                    <backgroundConfiguration key="background"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="cookieCracked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RsO-sd-QZi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="235-b3-VO2">
+                                <rect key="frame" x="58" y="163" width="278" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98690372709999996" green="0.91606944800000001" blue="0.79605835680000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.86078912019999998" green="0.2074560174" blue="0.244073182" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="-1"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.86078912019999998" green="0.2074560174" blue="0.244073182" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9CK-LL-onX" secondAttribute="bottom" constant="250" id="I99-gS-44a"/>
+                            <constraint firstItem="xj2-et-8XD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="JX9-kA-Adi"/>
+                            <constraint firstItem="9CK-LL-onX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K3x-dD-QxV"/>
+                            <constraint firstAttribute="bottom" secondItem="9CK-LL-onX" secondAttribute="bottom" constant="10" id="P4b-ii-qZG"/>
+                            <constraint firstItem="xj2-et-8XD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="gpV-kg-OOd"/>
+                            <constraint firstItem="xj2-et-8XD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oOI-rk-tny"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="I99-gS-44a"/>
+                                <exclude reference="P4b-ii-qZG"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="P4b-ii-qZG"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="I99-gS-44a"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="cookieButton" destination="9CK-LL-onX" id="GKi-8P-vLT"/>
+                        <outlet property="messageFortune" destination="235-b3-VO2" id="G2r-yq-nAz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.297709923664122" y="-510.56338028169017"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="cookie" width="328" height="200"/>
+    </resources>
+</document>

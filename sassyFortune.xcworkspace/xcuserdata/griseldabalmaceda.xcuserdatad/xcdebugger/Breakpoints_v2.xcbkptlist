@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E545E9D4-AF43-4235-A5AD-80A3F4D3C264"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7449EF0-4BB8-47F2-A84A-40C489C98A3F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sassyFortune/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "animationView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C7449EF0-4BB8-47F2-A84A-40C489C98A3F - 283d9a6673ad7b2e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Lottie.LottieAnimationView in variable initialization expression of sassyFortune.ViewController.animationView : Lottie.LottieAnimationView"
+                  moduleName = "sassyFortune"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/griseldabalmaceda/Documents/sassyFortune/sassyFortune/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "C7449EF0-4BB8-47F2-A84A-40C489C98A3F - 2d27c92a5113f0c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sassyFortune.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; sassyFortune.ViewController"
+                  moduleName = "sassyFortune"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/griseldabalmaceda/Documents/sassyFortune/sassyFortune/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "166">
+               </Location>
+               <Location
+                  uuid = "C7449EF0-4BB8-47F2-A84A-40C489C98A3F - 85a0794e702710c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sassyFortune.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;sassyFortune.ViewController&gt;"
+                  moduleName = "sassyFortune"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/griseldabalmaceda/Documents/sassyFortune/sassyFortune/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "123">
+               </Location>
+               <Location
+                  uuid = "C7449EF0-4BB8-47F2-A84A-40C489C98A3F - 2d27c92a5113f0c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sassyFortune.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; sassyFortune.ViewController"
+                  moduleName = "sassyFortune"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/griseldabalmaceda/Documents/sassyFortune/sassyFortune/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "219">
+               </Location>
+               <Location
+                  uuid = "C7449EF0-4BB8-47F2-A84A-40C489C98A3F - 85a0794e702710c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sassyFortune.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;sassyFortune.ViewController&gt;"
+                  moduleName = "sassyFortune"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/griseldabalmaceda/Documents/sassyFortune/sassyFortune/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

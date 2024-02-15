@@ -1,0 +1,6 @@
+framework module Pods_sassyFortune {
+  umbrella header "Pods-sassyFortune-umbrella.h"
+
+  export *
+  module * { export * }
+}

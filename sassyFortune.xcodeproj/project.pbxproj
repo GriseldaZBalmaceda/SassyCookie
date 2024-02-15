@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADABA61F2B70412F0070BA73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABA61E2B70412F0070BA73 /* AppDelegate.swift */; };
+		ADABA6212B70412F0070BA73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABA6202B70412F0070BA73 /* SceneDelegate.swift */; };
+		ADABA6232B70412F0070BA73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADABA6222B70412F0070BA73 /* ViewController.swift */; };
+		ADABA6282B7041310070BA73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADABA6272B7041310070BA73 /* Assets.xcassets */; };
+		ADABA62B2B7041310070BA73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADABA6292B7041310070BA73 /* LaunchScreen.storyboard */; };
+		ADABA6332B7043A30070BA73 /* cookie.json in Resources */ = {isa = PBXBuildFile; fileRef = ADABA6322B7043A30070BA73 /* cookie.json */; };
+		ADABA6352B7051B30070BA73 /* cookie.svg in Resources */ = {isa = PBXBuildFile; fileRef = ADABA6342B7051B30070BA73 /* cookie.svg */; };
+		ADABA6362B7061CB0070BA73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADABA6242B70412F0070BA73 /* Main.storyboard */; };
+		F8BF50C70E283324C39AB589 /* Pods_sassyFortune.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F695E1D7866B06849C93B7E /* Pods_sassyFortune.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		755074384E7C217A962B990F /* Pods-sassyFortune.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sassyFortune.release.xcconfig"; path = "Target Support Files/Pods-sassyFortune/Pods-sassyFortune.release.xcconfig"; sourceTree = "<group>"; };
+		8487C72AF296B28BD1D5800F /* Pods-sassyFortune.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sassyFortune.debug.xcconfig"; path = "Target Support Files/Pods-sassyFortune/Pods-sassyFortune.debug.xcconfig"; sourceTree = "<group>"; };
+		9F695E1D7866B06849C93B7E /* Pods_sassyFortune.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sassyFortune.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADABA61B2B70412F0070BA73 /* sassyFortune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sassyFortune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADABA61E2B70412F0070BA73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADABA6202B70412F0070BA73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADABA6222B70412F0070BA73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADABA6252B70412F0070BA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADABA6272B7041310070BA73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADABA62A2B7041310070BA73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADABA62C2B7041310070BA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADABA6322B7043A30070BA73 /* cookie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = cookie.json; path = ../../../Downloads/cookie.json; sourceTree = "<group>"; };
+		ADABA6342B7051B30070BA73 /* cookie.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cookie.svg; path = ../../../Desktop/cookie.svg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADABA6182B70412F0070BA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF50C70E283324C39AB589 /* Pods_sassyFortune.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C7849EC1C2CC170830A7734 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8487C72AF296B28BD1D5800F /* Pods-sassyFortune.debug.xcconfig */,
+				755074384E7C217A962B990F /* Pods-sassyFortune.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ADABA6122B70412F0070BA73 = {
+			isa = PBXGroup;
+			children = (
+				ADABA61D2B70412F0070BA73 /* sassyFortune */,
+				ADABA61C2B70412F0070BA73 /* Products */,
+				7C7849EC1C2CC170830A7734 /* Pods */,
+				C12677BD2A7B3BEBDB95433A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADABA61C2B70412F0070BA73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADABA61B2B70412F0070BA73 /* sassyFortune.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADABA61D2B70412F0070BA73 /* sassyFortune */ = {
+			isa = PBXGroup;
+			children = (
+				ADABA6322B7043A30070BA73 /* cookie.json */,
+				ADABA6342B7051B30070BA73 /* cookie.svg */,
+				ADABA61E2B70412F0070BA73 /* AppDelegate.swift */,
+				ADABA6202B70412F0070BA73 /* SceneDelegate.swift */,
+				ADABA6222B70412F0070BA73 /* ViewController.swift */,
+				ADABA6242B70412F0070BA73 /* Main.storyboard */,
+				ADABA6272B7041310070BA73 /* Assets.xcassets */,
+				ADABA6292B7041310070BA73 /* LaunchScreen.storyboard */,
+				ADABA62C2B7041310070BA73 /* Info.plist */,
+			);
+			path = sassyFortune;
+			sourceTree = "<group>";
+		};
+		C12677BD2A7B3BEBDB95433A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F695E1D7866B06849C93B7E /* Pods_sassyFortune.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADABA61A2B70412F0070BA73 /* sassyFortune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADABA62F2B7041310070BA73 /* Build configuration list for PBXNativeTarget "sassyFortune" */;
+			buildPhases = (
+				32DAE973A28EDA6D7532D9D4 /* [CP] Check Pods Manifest.lock */,
+				ADABA6172B70412F0070BA73 /* Sources */,
+				ADABA6182B70412F0070BA73 /* Frameworks */,
+				ADABA6192B70412F0070BA73 /* Resources */,
+				34E5244A1C337E47AA76C90C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sassyFortune;
+			productName = sassyFortune;
+			productReference = ADABA61B2B70412F0070BA73 /* sassyFortune.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADABA6132B70412F0070BA73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ADABA61A2B70412F0070BA73 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ADABA6162B70412F0070BA73 /* Build configuration list for PBXProject "sassyFortune" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADABA6122B70412F0070BA73;
+			productRefGroup = ADABA61C2B70412F0070BA73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADABA61A2B70412F0070BA73 /* sassyFortune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADABA6192B70412F0070BA73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABA62B2B7041310070BA73 /* LaunchScreen.storyboard in Resources */,
+				ADABA6362B7061CB0070BA73 /* Main.storyboard in Resources */,
+				ADABA6332B7043A30070BA73 /* cookie.json in Resources */,
+				ADABA6282B7041310070BA73 /* Assets.xcassets in Resources */,
+				ADABA6352B7051B30070BA73 /* cookie.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32DAE973A28EDA6D7532D9D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sassyFortune-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E5244A1C337E47AA76C90C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sassyFortune/Pods-sassyFortune-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-sassyFortune/Pods-sassyFortune-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sassyFortune/Pods-sassyFortune-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADABA6172B70412F0070BA73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADABA6232B70412F0070BA73 /* ViewController.swift in Sources */,
+				ADABA61F2B70412F0070BA73 /* AppDelegate.swift in Sources */,
+				ADABA6212B70412F0070BA73 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADABA6242B70412F0070BA73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADABA6252B70412F0070BA73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADABA6292B7041310070BA73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADABA62A2B7041310070BA73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADABA62D2B7041310070BA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADABA62E2B7041310070BA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADABA6302B7041310070BA73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8487C72AF296B28BD1D5800F /* Pods-sassyFortune.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6883M9HLA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sassyFortune/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zelda.sassyFortune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADABA6312B7041310070BA73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755074384E7C217A962B990F /* Pods-sassyFortune.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6883M9HLA6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sassyFortune/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = zelda.sassyFortune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADABA6162B70412F0070BA73 /* Build configuration list for PBXProject "sassyFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABA62D2B7041310070BA73 /* Debug */,
+				ADABA62E2B7041310070BA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADABA62F2B7041310070BA73 /* Build configuration list for PBXNativeTarget "sassyFortune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADABA6302B7041310070BA73 /* Debug */,
+				ADABA6312B7041310070BA73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADABA6132B70412F0070BA73 /* Project object */;
+}
